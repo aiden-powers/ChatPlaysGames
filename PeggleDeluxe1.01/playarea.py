@@ -1,7 +1,7 @@
 import win32api
 
 import mousehelper
-from getdimensions import dimensionsClass
+from dimensionhelper import dimensionsClass
 
 def goto_in_play_area(xPercent,yPercent, glideTime=1):
     dims = dimensionsClass()

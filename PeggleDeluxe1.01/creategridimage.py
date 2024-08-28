@@ -1,7 +1,7 @@
 import PIL
 import PIL.Image
 
-from getdimensions import dimensionsClass
+from dimensionhelper import dimensionsClass
 
 dims = dimensionsClass()
 

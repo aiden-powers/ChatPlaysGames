@@ -1,13 +1,13 @@
 import win32gui
 
 import playarea
-import getdimensions
+import dimensionhelper
 
 window_name = "Peggle Deluxe 1.01"
 hwnd = win32gui.FindWindow(None, window_name)
 
 def tkinter_status_window():
-    dims = getdimensions.dimensionsClass()
+    dims = dimensionhelper.dimensionsClass()
     # create a tkinter window that shows the current mouse position in the play area
     import tkinter as tk
     width = dims.width - 6

@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/f5f3595d-8163-44d6-96f4-451a081f5e8e)
+
 # Code
 before you start main.py, make sure you have a .env file.
 
